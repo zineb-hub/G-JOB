@@ -1,5 +1,7 @@
 # 🚀 G-Jobs - Connecting Job Seekers & Employers in Algeria 🇩🇿
-[logo](https://raw.githubusercontent.com/zineb-hub/G-JOB/refs/heads/main/WITH-BG/3.png)
+
+![logo](https://raw.githubusercontent.com/zineb-hub/G-JOB/refs/heads/main/WITH-BG/3.png)
+
 ## 📌 Project Overview
 
 **G-Jobs** is a job-matching platform designed to **connect Algerian job seekers and employers** efficiently. Whether you're searching for a career opportunity, a side job, or the perfect candidate for an open position, **G-Jobs** streamlines the process with smart filtering, messaging, and job tracking features.
