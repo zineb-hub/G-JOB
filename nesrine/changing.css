@@ -1,0 +1,18 @@
+
+.changing_p ,.changing_p::before{
+    color: white;
+    font-size: 30px;
+    font-family:Macan,Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-weight: 700;
+    
+
+}
+.changing_p::before{
+
+   content: "G-jobs the best  : ";
+   white-space: pre;
+
+}
+.changing_p h3{
+    color:white;
+}

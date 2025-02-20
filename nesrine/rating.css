@@ -1,0 +1,26 @@
+.rating {
+    display: inline-block;
+    display : flex;
+    flex-direction:row-reverse;
+    align-self: flex-start;
+    width:30vw;
+  }
+
+  .rating input {
+    display: none;
+  }
+
+  .rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+  }
+
+  .rating label:before {
+    content: '\2605'; /* Unicode character for a star */
+    display: block;
+  }
+
+  .rating input:checked ~ label {
+    color: #ffcc00; /* Color for the selected stars */
+  }

@@ -1,0 +1,259 @@
+body {
+    background-color: #cdcdcd;
+}
+
+#bar {
+    background-color: #272829;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+p {
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+}
+
+.whole-post {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.poster-information {
+    margin: 15px 0 0 8px;
+}
+
+.full-name,
+.domain {
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.full-name {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.domain {
+    line-height: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555555;
+}
+
+#first-part {
+    margin: 30px 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    margin: 22px 10px 0 0;
+    border-style: solid;
+
+}
+
+.profile-buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 20px 25px;
+    justify-content: center;
+    align-content: first baseline;
+}
+
+#interest {
+    margin-right: 5px;
+    font-family: Poppins;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 4px 8px 4px 8px;
+    font-weight: 500;
+    background-color: #fff;
+    color: black;
+}
+
+#interest:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.1s;
+}
+
+#interest:active {
+    background-color: #61677A;
+    color: #FFF6E0;
+    transition: 0.001s;
+}
+
+#waiting-list {
+    background-color: #cdcdcd;
+    border: none;
+}
+
+i:active {
+    background-color: black;
+}
+
+.gg-bookmark,
+.gg-bookmark::after {
+    display: block;
+    box-sizing: border-box;
+    border-top-right-radius: 3px
+}
+
+.gg-bookmark {
+    background-color: #cdcdcd;
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 20px
+}
+
+.gg-bookmark::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+
+    transform: rotate(-45deg);
+    top: 9px;
+    left: -1px
+}
+
+.section-header {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+
+h6 {
+    font-family: Poppins;
+}
+
+.content {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.job-information,
+.company-information,
+.employer-information,
+.contact-information {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #555555;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 15px;
+    background-color: #fff;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gg-instagram {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 18px;
+    height: 18px
+}
+
+.gg-instagram::after,
+.gg-instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+
+.gg-instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+.gg-facebook {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 25px;
+    height: 25px
+}
+
+.gg-facebook::after,
+.gg-facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+
+.gg-facebook::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+}
+
+.gg-facebook::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+}
+
+.gg-instagram,
+.gg-facebook,
+.material-icons {
+    margin: 10px 6px 10px 6px;
+}
+
+@media (min-width:600px) {
+
+    .job-information,
+    .company-information,
+    .employer-information,
+    .contact-information {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* perfect at 600px-700px */
+}

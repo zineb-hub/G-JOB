@@ -1,0 +1,145 @@
+@media screen and (max-width: 768px) {
+    
+   
+    .footer_section {
+      padding: 10px;
+    }
+    .footer-links,
+    .footer-newsletter {
+      margin-top: 20px;
+    }
+    #footer{
+        display: block;
+        
+    }
+    .footer-newsletter{
+        display: none;
+    }
+    #servises{
+        display: none;
+    }
+    
+   
+  }
+ 
+  
+
+.my_btn{
+    margin-left : 80vw;
+   
+   }
+   #my_btn{
+     width : 15vw;
+     height : 10vh;
+     padding : 1px ; 
+     margin : 1em ; 
+     border-radius: 20%;
+     border: none;
+   }
+   
+   #my_btn:hover{
+     background-color: #ffde9e;
+   }
+   .img-fluid{
+     margin-top:5vw;
+   }
+   .footer_section {
+     font-weight: 500;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     padding: 20px;
+     background-color: #101010;
+   }
+   
+   .footer_section p {
+     color: rgba(254, 254, 255, 0.7);
+     margin: 0;
+     text-align: center;
+   }
+   
+   .footer_section a {
+     color: rgba(254, 254, 255, 0.7);
+   }
+   
+   body {
+     font-family: "Open Sans", sans-serif;
+     color: #444444;
+   }
+   
+   a {
+     color: #FFF6E0;
+     text-decoration: none;
+   }
+   
+   a:hover {
+     color: #ffd584;
+     text-decoration: none;
+   }
+   
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+     font-family: "Raleway", sans-serif;
+   }
+   
+   
+ 
+   .back-to-top {
+     position: fixed;
+     visibility: hidden;
+     opacity: 0;
+     right: 15px;
+     bottom: 15px;
+     z-index: 996;
+     background: #FFF6E0;
+     width: 40px;
+     height: 40px;
+     border-radius: 4px;
+     transition: all 0.4s;
+   }
+   
+   .back-to-top i {
+     font-size: 28px;
+     color: #151515;
+     line-height: 0;
+   }
+
+   .back-to-top:hover {
+    background: #151515;
+  }
+  
+  .back-to-top:hover i {
+    color: #FFF6E0;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #footer{
+    display:flex;
+    flex-direction: row;
+    position:static;
+    background-color: #151515;
+    border-radius: 5px;
+    left:0;
+    right:0;
+    bottom:5px;
+  }
+  .row{
+    display:flex;
+    margin:10px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .row div {
+    margin: 0px 30px 0px 30px; 
+  }

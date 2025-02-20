@@ -1,0 +1,142 @@
+
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color:black;
+}
+
+body {
+    font-family: Poppins;
+    background-image: url("images/Resume\ folder-amico.png");
+    background-position: 140px 140px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction:row;
+    justify-content: right;
+}
+
+.loginform{
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 50vw;
+    height: 100vh;
+    border: 1px solid black ;
+    margin-left : 25vw;
+    background-color : rgb(38,50,56);
+    box-shadow: 8 16px 16px rgba(0, 0, 0, 0.2);
+}
+
+#img-login {
+    width: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin : 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 2.8vw;
+}
+
+input[name="email"],input[name="password"]
+{
+    width : 500px;
+    height: 50px;
+    border : none;
+    opacity : 50%;
+    padding-left : 1vw;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+input[name="email"]:hover,input[name="password"]:hover{
+    opacity: 100;
+}
+
+input[name="remember_me"]{
+    width : 20px;
+    height: 20px;
+}
+
+input[name="submit"]{
+    border:none;
+    font-size: medium;
+    font-weight: 20px;
+}
+
+input{
+    margin : 2vh;
+    /* margin :2px; */
+}
+
+.avatar{
+    width : 10vw;
+    /* margin-left : 20vw; */
+    border-radius: 50%;
+    margin-top: 5vh;
+    /* opacity:50%; */
+    background-image: url("");
+}
+
+#submit{
+background-color: none;
+width : 130px;
+height: 45px;
+border-radius: 4px;
+margin-left: 265px;
+font-size: 18px;
+font-weight: bold;
+}
+
+#remember_me{
+color: aliceblue;
+font-size:1.2em;
+margin-top: 3vh;
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+    }
+    .loginform{
+        margin-left: 0;
+
+        width:120vw;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    input{
+        margin-left:10vw;
+        /* width : 100vw; */
+    }
+    input[name="email"],input[name="password"]{
+        width:70vw;
+    }
+    #submit{
+        width : 50vw;
+        color:black;
+    }
+    .imgcontainer{
+        width:100px;
+    }
+    .avatar{
+        width:100px;
+    }
+}
+
+.inputs {
+    background-color: #fbfbfb;
+}

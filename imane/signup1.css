@@ -1,0 +1,310 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.whole-thing {
+  display: inline-block;
+}
+
+.illustration {
+  margin: 20px 80px 0 140px;
+  float: left;
+}
+
+#actual-illustration {
+  width: 500px;
+}
+
+.ancestor {
+  margin: 0 100px 0 0;
+  height: 100vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  flex-wrap: wrap;
+  padding-bottom: 0;
+}
+
+#header {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  width: 500px;
+  height: 500px;
+  padding: 25px 70px 120px 50px;
+  background-color: rgb(39, 40, 41);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+
+#sign-description {
+  font-family: Poppins, Gabarito;
+  color: #272829;
+  width: 300px;
+  text-align: left;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+label {
+  font-family: Gabarito;
+  color: rgb(255, 246, 224);
+  font-size: 20px;
+}
+
+input {
+  font-size: 16px;
+  margin: 4px 0 10px 0px;
+  width: 480px;
+  height: 38px;
+  background-color: rgb(216, 217, 218);
+  border-style: solid;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.sign-input {
+  display: block;
+}
+
+#terms-conditions {
+  display: inline-block;
+  width: 15px;
+  border: 2px;
+  border-radius: 50%;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+#pwdc {
+  margin-bottom: 0;
+}
+
+#terms-n-conditions {
+  display: inline-block;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-left: 5px;
+}
+
+#next {
+  font-family: Gabarito;
+  display: block;
+  margin: 0 0 5px 200px;
+  width: 100px;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#next:hover {
+  box-shadow: 1px 1px 0.15 white;
+}
+
+.existing-acc {
+  margin: 0 0 0 165px;
+  color: white;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+#heading {
+  margin: 0;
+  font-family: Gabarito;
+  font-size: 40px;
+  color: #272829;
+}
+
+@media(max-width:1446px) {
+  .signup-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ancestor {
+    margin-right: 0;
+  }
+}
+
+@media(max-width:545px) {
+  .sign-up {
+    margin: 20px xauto auto auto;
+  }
+
+  #actual-illustration {
+    width: 400px;
+  }
+
+  .illustration {
+    margin: auto;
+  }
+}
+
+@media (max-width:768px) {
+  .sign-up {
+    width: 300px;
+    height: 500px;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  #next {
+    margin: 10px 0 10px 100px;
+  }
+
+  #terms-n-conditions {
+    width: 250px;
+  }
+
+  .existing-acc {
+    margin: 0 0 0 78px;
+  }
+}
+
+@media(max-width: 423px) {
+  .sign-up {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 35px 50px;
+    height: 510px;
+  }
+
+  #actual-illustration {
+    width: 300px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  input {
+    width: 250px;
+    font-size: 15px;
+  }
+
+
+  #terms-n-conditions {
+    width: 200px;
+  }
+
+  .existing-acc {
+    margin-left: 55px;
+  }
+
+  #next {
+    margin-left: 85px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width:365px) {
+
+  #actual-illustration {
+    width: 250px;
+  }
+
+  #heading {
+    font-size: 25px;
+  }
+
+  .sign-up {
+    width: 190px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  input {
+    width: 200px;
+    font-size: 15px;
+  }
+
+  #terms-n-conditions {
+    width: 160px;
+  }
+
+  #next {
+    margin-left: 67px;
+    margin-bottom: 2px;
+  }
+
+  .existing-acc {
+    font-size: 12px;
+    margin-left: 54px;
+  }
+
+  #terms-conditions {
+    margin-top: 10px;
+  }
+
+  .sign-up {
+    height: 520px;
+  }
+}
+
+@media(max-width: 310px) {
+  #heading {
+    font-size: 20px;
+  }
+
+  #sign-description {
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .sign-up {
+    height: 530px;
+  }
+}
+
+
+* {
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+
+button {
+  color: white;
+}
+
+.error {
+  text-align: center;
+  background-color: rgb(255, 250, 250);
+  border: 1px solid rgb(150, 0, 0)
+}
+
+
+.success {
+  background-color: rgb(198, 222, 205);
+  border: 1px solid rgb(7, 115, 36);
+}
+
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+}

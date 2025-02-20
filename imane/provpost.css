@@ -1,0 +1,346 @@
+body {
+    background-color: #cdcdcd;
+    font-family: Poppins;
+}
+
+
+p {
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+}
+
+#parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.whole-post, #commentaires {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 740px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    margin-bottom: 20px;
+}
+
+#commentaires {
+    width: 700px;
+}
+
+.poster-information {
+    margin: 15px 0 0 8px;
+}
+
+.full-name,
+.domain {
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.full-name {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.domain {
+    line-height: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555555;
+}
+
+#first-part {
+    margin: 30px 0 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 22px 10px 0 0;
+    border-style: solid;
+    border-color: #2e3c4b;
+}
+
+.profile-buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 20px 25px;
+    justify-content: center;
+    align-content: center;
+}
+
+#interest {
+    font-family: Poppins;
+    border-style: solid;
+    border-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 4px 8px 4px 8px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #2e3c4b;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    width: 160px;
+    height: 45px;
+}
+
+#interest:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.1s;
+}
+
+#interest:active {
+    background-color: #61677A;
+    color: #FFF6E0;
+    transition: 0.001s;
+}
+
+#waiting-list {
+    background-color: #cdcdcd;
+    border: none;
+}
+
+i:active {
+    background-color: black;
+}
+
+.gg-bookmark,
+.gg-bookmark::after {
+    display: block;
+    box-sizing: border-box;
+    border-top-right-radius: 3px
+}
+
+.gg-bookmark {
+    background-color: #cdcdcd;
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 20px
+}
+
+.gg-bookmark::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+
+    transform: rotate(-45deg);
+    top: 9px;
+    left: -1px
+}
+
+.section-header {
+    font-size: 22px;
+    margin: 0 0 5px 0;
+}
+
+h6 {
+    font-family: Poppins;
+}
+
+.content {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.job-information,
+.company-information,
+.employer-information,
+.contact-information,
+.education-information,
+.embeddings {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cdcdcd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 15px;
+    background-color: #f1f1f1;
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gg-instagram {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 18px;
+    height: 18px
+}
+
+.gg-instagram::after,
+.gg-instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+
+.gg-instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+.gg-facebook {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 25px;
+    height: 25px
+}
+
+.gg-facebook::after,
+.gg-facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+
+.gg-facebook::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+}
+
+.gg-facebook::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+}
+
+.gg-instagram,
+.gg-facebook,
+.material-icons {
+    margin: 10px 6px 10px 6px;
+}
+
+
+#commentaires {
+    
+    padding: 20px;
+    padding-bottom: 30px;
+}
+#add-comment, .one-comment, .commenter-info {
+    display: flex;
+    flex-direction: row;
+}
+
+#add-comment {
+    align-items: center;
+}
+
+.one-comment {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    margin-bottom: 10px;
+}
+
+#comment-field {
+    margin: 20px;
+    width: 500px;
+    height: 70px;
+    font-family: Poppins;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+.commenter-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+#post-comment {
+    font-family: Poppins;
+    border-style: solid;
+    border-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #2e3c4b;
+    height: 40px;
+    width: 80px;
+   
+}
+#comment-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-content {
+    width: 600px;
+    
+}
+
+.comment-text {
+    font-size: 15px;
+}
+
+@media (min-width:600px) {
+
+    .job-information,
+    .company-information,
+    .employer-information,
+    .contact-information {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* perfect at 600px-700px */
+}

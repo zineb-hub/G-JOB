@@ -1,0 +1,159 @@
+*{ text-decoration: none;}
+a{
+  color:white;
+}
+button{
+  color:white;
+}
+.nav_bar
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#272829;
+    height:100px;
+    position:fixed;
+    opacity: 0.9;
+    top:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:99999;
+}
+.logo {
+    width:200px;
+    margin-left:2px;
+    transition: transform 0.3s ease;
+}
+.logo:hover {
+  cursor:pointer;
+}
+
+.faq
+{
+  height:30px;
+  padding-top:8px;
+  content:url(https://www.4230llc.com/wp-content/uploads/2017/03/faq-icon.png)
+}
+
+.nav_FAQ
+{
+  background-color: transparent;
+  border:none;
+  /* border-color: #D8D9DA; */
+  transition: transform 0.3s ease;
+  color:#D8D9DA;
+}
+.faq:hover
+{
+  content: url(https://i.pinimg.com/750x/c3/9f/26/c39f2685563ac54d09822720c922c99f.jpg);
+  cursor:pointer;
+}
+.nav_buttons
+{
+
+  font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #272829;
+  border:none;
+  color:#D8D9DA;
+  transition: transform 0.3s ease;
+  font-size:medium;
+  font-weight: bold;
+}
+.nav_buttons:hover
+{
+  cursor:pointer;
+  color:#FFF6E0;
+  text-decoration: underline;
+  
+}
+.logo-alt
+{
+  display:none;
+  width:100px;
+  margin-left:2px;
+  transition: transform 0.3s ease;
+}
+.sidebar
+{
+  display:none;
+  background-color: transparent;
+  border:none;
+  color:#D8D9DA;
+  font-size: 26px;
+  margin-right:15px;
+  padding:0px;
+}
+.sidebar:hover
+{
+  cursor:pointer;
+  color:#FFF6E0;
+}
+.sidebar-content
+{
+  display:none;
+  border-radius: 2px;
+  padding:1%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height:auto;
+  position:fixed;
+  top:101px;
+  right:0px;
+  border:1px;
+  border-color:#D8D9DA;
+  width:80%;
+  z-index:99999;
+  background-color: #272829;
+  padding-bottom:20px;
+  padding-top:20px;
+}
+.exit{
+  border-radius: 50%;
+  position:relative;
+  right:10px;
+  top:2px;
+  align-self: flex-end;
+  border:#D8D9DA;
+  border-style: solid;
+  padding-bottom:5px;
+}
+.exit:hover{
+  text-decoration: none;
+  background-color: #38393a;
+}
+@media screen and (max-width: 750px) {
+  .logo {
+    display: none;
+  }
+
+  .logo-alt {
+    display: block; 
+  }
+}
+hr{
+  width:80%;
+}
+@media screen and (max-width: 655px)
+{
+  .nav_buttons, .nav_FAQ{
+    display:none;
+  }
+  .sidebar
+  {
+    display:block;
+  }
+  .sidebar-content button{
+    display:block;
+  }
+  .logo-alt{
+    width:50px;
+  }
+}
+@media screen and (min-width: 655px) and (max-width: 750px) {
+  .logo-alt {
+      display: none;
+  }
+}

@@ -1,0 +1,37 @@
+.rating {
+    /* display: inline-block; */
+    /* display : flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end; */
+    /* margin-top: -30px ;
+    margin-left: 50px;
+     */
+  }
+
+  span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rating input {
+    display: none;
+  }
+
+  .rating label {
+    font-size: 50px;
+    color: #ccc;
+    cursor: pointer;
+  }
+
+  .rating label:before {
+    content: '\2605'; /* Unicode character for a star */
+    display: block;
+  }
+
+  .rating input:checked ~ label {
+    color: #ffcc00; /* Color for the selected stars */
+  }
