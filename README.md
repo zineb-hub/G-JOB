@@ -100,19 +100,3 @@ Yes, job searching & hiring are widely known processes.
 ![Site maps](sitemap.png "G-Jobs Sitemap")
 
 ---
-
-## 📞 Contact
-
-📧 **Email:** [meftahworld@gmail.com](mailto:meftahworld@gmail.com)  
-💼 **LinkedIn:** [Meftah Zineb](https://www.linkedin.com/in/meftah-zineb-5768ba25b)  
-🌍 **Portfolio:** [VotrePortfolio.com](https://votreportfolio.com)  
-
----
-
-### 🔥 What’s Improved?
-✅ **Clearer structure** with sections labeled using icons & headlines.  
-✅ **More engaging and professional tone**.  
-✅ **Better readability** using bullet points & spacing.  
-✅ **Emphasizes key features & motivations** without unnecessary repetition.  
-
-This **README.md** is now **visually appealing, professional, and structured**, making it **easier for contributors, recruiters, and users to understand the G-Jobs project**! 🚀🔥
